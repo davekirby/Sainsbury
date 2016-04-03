@@ -52,7 +52,7 @@ this was to become part of a production system then it would need proper error
 handling and logging.
 
 2. Handle multiple pages.  The top level page that was given only had 7 items on it.
-If it had more than 20 items then it be split across multiple pages and the code would
+If it had more than 20 items then it would have been split across multiple pages and the code would
 need to handle this by retrieving each page in turn.
 
 3. Concurrency.  The pages for each product are retrieved sequentially, which is
